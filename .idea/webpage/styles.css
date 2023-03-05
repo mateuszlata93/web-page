@@ -1,0 +1,78 @@
+header {
+    background-image: url('https://www.freewebheaders.com/wp-content/gallery/skiing/skiing-sport-header-56812-800x200.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    text-align: center;
+    height: 200px;
+    font-size: 30px;
+    color: white;
+    padding-top: 80px;
+}
+
+p {
+    color: #357979;
+    float: middle
+}
+
+nav {
+    float: left;
+    width: 30%;
+    flex: 1
+}
+
+article {
+    float: right;
+    width: 70%;
+    flex: 3;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+article > div {
+    font-weight: lighter;
+}
+
+section {
+    display: flex
+}
+
+@media (max-width: 600px) {
+    section {
+        flex-direction: column;
+    }
+}
+
+nav li {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #543686;
+    text-align: left;
+}
+
+nav li:hover {
+    background-color: #c7b8a4;
+    border: 1px solid;
+    color: #8d8dd9;
+}
+
+footer {
+    background-color: #cccedc;
+    text-align: center;
+}
+
+article > div {
+    display: none;
+}
+
+.firstArticle {
+    display: block;
+}
+
+li {
+    list-style: none;
+}
+
+i {
+    color: black;
+}
