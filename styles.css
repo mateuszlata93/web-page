@@ -4,7 +4,7 @@ header {
     background-size: 100%;
     width: 100%;
     text-align: center;
-    height: 200px;
+    height: 150px;
     font-size: 30px;
     color: white;
     padding-top: 80px;
@@ -26,6 +26,13 @@ article {
     flex: 3;
     font-size: 20px;
     font-weight: bold;
+    height: 700px;
+}
+
+body {
+    background-image: url("https://www.travelandleisure.com/thmb/JPHQ3DX6yUONAfKCE445OSn7rA0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/header-whitefish-mountain-resort-montana-NEWSKIMT1121-5a607e69e46c4971939a51cce0e9dd0f.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 article > div {
@@ -33,7 +40,11 @@ article > div {
 }
 
 section {
-    display: flex
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: white;
+    overflow: hidden;
 }
 
 @media (max-width: 600px) {
