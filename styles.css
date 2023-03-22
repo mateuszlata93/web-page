@@ -16,17 +16,15 @@ p {
 
 nav {
     float: left;
-    width: 30%;
     flex: 1
 }
 
 article {
     float: right;
-    width: 70%;
-    flex: 3;
+    flex: 6;
     font-size: 20px;
     font-weight: bold;
-    height: 700px;
+    padding-left: 20px;
 }
 
 body {
@@ -41,8 +39,8 @@ article > div {
 
 section {
     display: flex;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
     background-color: white;
     overflow: hidden;
 }
@@ -51,6 +49,11 @@ section {
     section {
         flex-direction: column;
     }
+}
+
+nav {
+    background-color: #f2f3f6;
+    box-shadow: 0 0 12px rgb(0 20 60 / 16%);
 }
 
 nav li {
@@ -73,6 +76,10 @@ footer {
 
 article > div {
     display: none;
+}
+
+article {
+    color: #2e4068;
 }
 
 .firstArticle {

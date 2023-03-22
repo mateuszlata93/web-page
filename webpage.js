@@ -16,7 +16,6 @@ function displayElement(id) {
 
 function hideElements(ids) {
     ids.forEach(id => {
-        console.log('test')
         document.querySelector(`article div:nth-of-type(${id})`).style.display = 'none';
     })
 }
